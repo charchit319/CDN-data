@@ -1,0 +1,12 @@
+[[headers]]
+  for = "/songs/*.mxl"
+  [headers.values]
+    Content-Type = "application/octet-stream"
+    Content-Encoding = "identity"
+    Cache-Control = "public, max-age=3600"
+    Access-Control-Allow-Origin = "*"
+
+[[headers]]
+  for = "/songs/*"
+  [headers.values]
+    Access-Control-Allow-Origin = "*"
