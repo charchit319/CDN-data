@@ -1,3 +1,8 @@
+/*.mxl
+  Content-Type: application/octet-stream
+  Content-Encoding: identity
+  Cache-Control: no-transform
+
 /*
   Access-Control-Allow-Origin: *
   Access-Control-Allow-Methods: GET, OPTIONS
